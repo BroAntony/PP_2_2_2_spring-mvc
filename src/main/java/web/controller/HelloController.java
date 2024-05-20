@@ -13,7 +13,6 @@ public class HelloController {
 
 	@GetMapping(value = "/")
 	public String printWelcome(ModelMap model) {
-
 		List<String> messages = new ArrayList<>();
 		messages.add("Привет!");
 		messages.add("Это приложение Spring MVC приложение");
